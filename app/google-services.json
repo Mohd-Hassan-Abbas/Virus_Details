@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "795929756952",
+    "project_id": "virus-details-aa415",
+    "storage_bucket": "virus-details-aa415.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795929756952:android:f64c91ea66fa0329514a6d",
+        "android_client_info": {
+          "package_name": "i.have.an.virusdetails"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "795929756952-rpoe963g76glm2o1s6e0enfg44flv405.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "i.have.an.virusdetails",
+            "certificate_hash": "480313f9dd0bfa3d50328c31a226a6f489cd4ddf"
+          }
+        },
+        {
+          "client_id": "795929756952-3mm3viu341vi19cvfnin11fksj1e73f0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAig2_I9BK0wv0GCwTQc3QEym1ztOeScuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "795929756952-3mm3viu341vi19cvfnin11fksj1e73f0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

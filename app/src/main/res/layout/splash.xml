@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+                android:background="#303030"
+            android:gravity="center">
+    <TextView
+            android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+            android:text="Covid Statistics"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#6BB9ED"
+            android:layout_marginBottom="30dp"/>
+
+<ImageView android:layout_width="230dp"
+           android:layout_height="230dp"
+           android:src="@mipmap/virus"/>
+    <TextView
+            android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+            android:text="Created By Mohd Hassan Abbas"
+            android:textStyle="italic"
+            android:textSize="12sp"
+            android:textColor="#ffffff"
+             android:layout_marginTop="120dp"/>
+</LinearLayout>

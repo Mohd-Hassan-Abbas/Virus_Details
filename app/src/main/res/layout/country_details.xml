@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:background="#000000"
+                    tools:context=".CountryPage">
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="country name"
+        android:textColor="#6BB9ED"
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:textSize="25sp"
+android:id="@+id/country_name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Updated At"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:id="@+id/updated_at_id"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="population"
+            android:paddingTop="10dp"
+            android:textColor="#0090f1"
+            android:textSize="20sp"
+            android:id="@+id/population_id"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="death_rate"
+                android:textColor="#f51f2f"
+                android:textSize="20sp"
+                android:id="@+id/death_rate_id"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="recovery_rate"
+                android:textColor="#00f100"
+                android:textSize="20sp"
+                android:id="@+id/recovered_rate_id"/>
+    <LinearLayout
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+    android:paddingTop="20dp"
+      android:layout_margin="20dp">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:text="today"
+                android:textColor="#0090f1"
+                android:background="#303030"
+                android:id="@+id/today_btn_id"
+                style="?android:attr/buttonBarButtonStyle"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+               android:text="Latest"
+                android:textColor="#0090f1"
+                android:background="#303030"
+                android:id="@+id/total_btn_id"
+                style="?android:attr/buttonBarButtonStyle"/>
+    </LinearLayout>
+
+    <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="death"
+                android:layout_marginTop="30dp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:id="@+id/death_id"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="recovery"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:id="@+id/recovered_id"/>
+    <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="critical"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:id="@+id/critical_id"/>
+
+   <com.google.android.gms.ads.AdView
+      xmlns:ads="http://schemas.android.com/apk/res-auto"
+      android:id="@+id/adView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_alignParentBottom="true"
+      ads:adSize="BANNER"
+      ads:adUnitId="ca-app-pub-2728254994856043/4457723402">
+  </com.google.android.gms.ads.AdView>
+
+</LinearLayout>
